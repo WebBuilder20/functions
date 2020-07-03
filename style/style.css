@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #f5f6fa;
+}
+
+.length_box {
+  width: 15vh;
+  height: 3vh;
+  text-align: center;
+}
+
+.small_box {
+  width: 10vh;
+  height: 2vh;
+  text-align: center;
+}
+
+.inside {
+  margin-top: 3vh;
+  margin-left: 5vh;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  height: 91vh;
+  -ms-grid-columns: 30vh 1fr;
+      grid-template-columns: 30vh 1fr;
+}
+
+.menuAndLang {
+  background-color: #7f8fa6;
+}
+
+.menu {
+  width: 100%;
+  text-align: center;
+}
+
+.lang {
+  margin-top: 0.5vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  text-align: center;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.menuHeader {
+  list-style: none;
+  padding: 1vh;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.menuList {
+  list-style: none;
+  padding: 2vh;
+  font-weight: 500;
+  color: #f5f6fa;
+}
+
+.menuOnPage {
+  list-style: none;
+  padding: 2vh;
+  font-weight: 500;
+  font-weight: bold;
+  color: #f5f6fa;
+  background-color: #516480;
+}
+
+.upperSite {
+  margin: 0;
+  padding: 0;
+  display: inline-blcok;
+  height: 9vh;
+  line-height: 9vh;
+  text-align: center;
+  background-color: #273c75;
+  color: #f5f6fa;
+}
+
+.menuBar {
+  display: inline;
+}
+
+h3 {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.textarea_Title {
+  margin: 0;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.error {
+  color: #273c75;
+  margin: 0;
+  padding-top: 0.3vh;
+}
+
+input[type="number"] {
+  margin: 0;
+  padding: 2px 3px;
+  vertical-align: middle;
+}
+
+.tab {
+  white-space: pre;
+}
+
+.h1Title {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #7f8fa6;
+  border-radius: px;
+  min-width: 70px;
+  color: #273c75;
+  font-weight: 600;
+  float: right;
+}
+
+/*
+button:focus,
+input:focus,
+button:active {
+    outline: none;
+    background: $headerC;
+}
+
+input {
+    border:none;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+*/
+/*# sourceMappingURL=style.css.map */

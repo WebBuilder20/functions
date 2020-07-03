@@ -1,0 +1,157 @@
+$backgroundC: rgb(245, 246, 250);
+$panelC: rgb(127, 143, 166);
+$panelOnClick: rgb(81, 100, 128);
+$headerC: rgb(39, 60, 117);
+// color source = https://flatuicolors.com/palette/es
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: $backgroundC;
+}
+
+.length_box {
+    width: 15vh;
+    height: 3vh;
+    text-align:center;
+}
+
+.small_box {
+    width: 10vh;
+    height: 2vh;
+    text-align:center;
+}
+
+.inside {
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+
+.container {
+    display: grid;
+    height: 91vh;
+    grid-template-columns: 30vh 1fr;
+}
+
+.menuAndLang {
+    background-color: $panelC;
+}
+
+.menu {
+    width : 100%;
+    text-align: center;
+}
+
+.lang {
+    margin-top:0.5vh;
+    display:grid;
+    align-items: center;
+    width : 100%;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+}
+
+.menuHeader {
+    list-style: none;
+    padding: 1vh;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.menuList {
+    list-style: none;
+    padding: 2vh;
+    font-weight: 500;
+    color: $backgroundC;
+}
+
+.menuOnPage {
+    list-style: none;
+    padding: 2vh;
+    font-weight: 500;
+    font-weight: bold;
+    color:$backgroundC;
+    background-color:$panelOnClick;
+}
+
+.upperSite {
+    margin: 0;
+    padding: 0;
+    display: inline-blcok;
+    height: 9vh;
+    line-height: 9vh;
+    text-align: center;
+    background-color: $headerC;
+
+    color: $backgroundC
+}
+
+.menuBar {
+    display: inline;
+    // 참조: https://aboooks.tistory.com/85
+}
+
+h3 {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.textarea_Title {
+    margin: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.error {
+    color: $headerC;
+    margin:0;
+    padding-top: 0.3vh;
+}
+
+input[type="number"] {
+    margin: 0;
+    padding: 2px 3px;
+    vertical-align:middle;
+}
+
+.tab { 
+    white-space: pre; 
+}
+
+.h1Title {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: $panelC;
+    border-radius: px;
+    min-width: 70px;
+    color: $headerC;
+    font-weight: 600;
+    float: right;
+}
+// 버튼 css 디자인: https://webdir.tistory.com/421
+
+
+/*
+button:focus,
+input:focus,
+button:active {
+    outline: none;
+    background: $headerC;
+}
+
+input {
+    border:none;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+*/
