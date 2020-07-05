@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body {
   margin: 0;
   padding: 0;
@@ -5,10 +6,53 @@ html, body {
   background: #f5f6fa;
 }
 
-.length_box {
-  width: 15vh;
-  height: 3vh;
-  text-align: center;
+.howToUse_H {
+  width: 320px;
+  height: 163px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  border: 1px solid #273c75;
+  border-radius: 0.3em;
+  background-color: #7f8fa6;
+  color: #f5f6fa;
+  text-align: justify;
+}
+
+.button_blue {
+  min-width: 140px;
+  height: 44px;
+  padding: 0 30px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "맑은 고딕", Malgun Gothic, sans-serif;
+  font-weight: bold;
+  line-height: 40px;
+  border: 1px solid transparent;
+  background-color: #1b87d4;
+}
+
+.button_white {
+  min-width: 140px;
+  height: 44px;
+  padding: 0 30px;
+  color: #1b87d4;
+  font-size: 16px;
+  font-family: "맑은 고딕", Malgun Gothic, sans-serif;
+  font-weight: bold;
+  line-height: 40px;
+  border: 1px solid #1b87d4;
+  background-color: #fff;
+}
+
+.buttonToRightBottom {
+  width: 75px;
+  height: 30px;
+  float: right;
+  position: relative;
+  right: 0;
+  bottom: -38px;
 }
 
 .small_box {
@@ -25,7 +69,7 @@ html, body {
 .container {
   display: -ms-grid;
   display: grid;
-  height: 91vh;
+  height: 87vh;
   -ms-grid-columns: 30vh 1fr;
       grid-template-columns: 30vh 1fr;
 }
@@ -80,21 +124,22 @@ html, body {
   margin: 0;
   padding: 0;
   display: inline-blcok;
-  height: 9vh;
-  line-height: 9vh;
+  height: 13vh;
+  line-height: 13vh;
   text-align: center;
   background-color: #273c75;
   color: #f5f6fa;
-}
-
-.menuBar {
-  display: inline;
 }
 
 h3 {
   margin: 0;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.big_textbox {
+  width: 740px;
+  height: 150px;
 }
 
 .textarea_Title {
@@ -115,10 +160,6 @@ input[type="number"] {
   vertical-align: middle;
 }
 
-.tab {
-  white-space: pre;
-}
-
 .h1Title {
   margin: 0;
   padding: 0;
@@ -135,20 +176,4 @@ button {
   font-weight: 600;
   float: right;
 }
-
-/*
-button:focus,
-input:focus,
-button:active {
-    outline: none;
-    background: $headerC;
-}
-
-input {
-    border:none;
-    border:1px solid rgba(0, 0, 0, 0.3);
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-*/
 /*# sourceMappingURL=style.css.map */
