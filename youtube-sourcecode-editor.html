@@ -31,7 +31,6 @@
                     <li class = "menuList"></li>
                     <li class = "menuList"></li>
                     <li class = "menuList"></li>
-                    <li class = "menuList"></li>
                 </div>
                 <li class = "menuHeader">LANGUAGE</li>
                 <div class = "lang">
@@ -49,13 +48,17 @@
                         </h4>
                         <p>
                         <h3 class = "textarea_Title">ORIGINAL SOURCE CODE :</h3>
-                        <textarea id="youtube_before" rows="10" cols="100" maxlength="30000"></textarea><br>
+                        <textarea id="youtube_before" class = "big_textbox" maxlength="30000"></textarea><br>
+                        <!--
                         <input type="button" id = "youtube_button" value="CONVERT" onclick="sourceConvert()">
                         <input type="button" id = "youtube_copy" value="COPY" onclick="youtube_copy()">
+                        -->
+                        <span class = "button_blue" id = "youtube_button" onclick = "sourceConvert()">CONVERT</span>
+                        <span class = "button_white" id = "youtube_copy" onclick="youtube_copy()">COPY</span>
                     </p>
                     <p>
                         <h3 class = "textarea_Title">EDITED SOURCE CODE :</h3>
-                        <textarea id="youtube_after" rows="10" cols="100"></textarea>
+                        <textarea id="youtube_after" class = "big_textbox" style="background-color:dimgrey; color:aquamarine"></textarea>
                         <script src="youtube-sourcecode-editor.js"></script>
                         <h4 class ="error" id = "youtube_error">※ AUTOPLAY MIGHT NOT WORK FOR SOME BROWSERS.</h4>
                     </p>
