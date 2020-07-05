@@ -1,7 +1,8 @@
 $backgroundC: rgb(245, 246, 250);
 $panelC: rgb(127, 143, 166);
 $panelOnClick: rgb(81, 100, 128);
-$headerC: rgb(39, 60, 117);
+$headerC: #273c75;
+
 // color source = https://flatuicolors.com/palette/es
 
 html, body {
@@ -11,10 +12,57 @@ html, body {
     background: $backgroundC;
 }
 
-.length_box {
-    width: 15vh;
-    height: 3vh;
-    text-align:center;
+.howToUse_H {
+    width: 320px;
+    height: 163px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border: 1px solid $headerC;
+    border-radius: 0.3em;
+    background-color: $panelC;
+    color: $backgroundC;
+    // 지원 안하는 경우 있음: justify;
+    text-align:justify;
+    // board style: https://thrillfighter.tistory.com/477
+}
+
+.button_blue {
+    min-width: 140px;
+    height: 44px;
+    padding: 0 30px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "맑은 고딕", Malgun Gothic, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    border: 1px solid transparent;
+    background-color: #1b87d4;
+}
+
+.button_white {
+    min-width: 140px;
+    height: 44px;
+    padding: 0 30px;
+    color: #1b87d4;
+    // 폰트 통일하기.
+    font-size: 16px;
+    font-family: "맑은 고딕", Malgun Gothic, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    border: 1px solid #1b87d4;
+    background-color: #fff;
+}
+// 버튼
+
+.buttonToRightBottom {
+    width: 75px;
+    height: 30px;
+    float: right;
+    position: relative;
+    right: 0;
+    bottom: -38px;
 }
 
 .small_box {
@@ -30,7 +78,7 @@ html, body {
 
 .container {
     display: grid;
-    height: 91vh;
+    height: 87vh;
     grid-template-columns: 30vh 1fr;
 }
 
@@ -80,23 +128,23 @@ html, body {
     margin: 0;
     padding: 0;
     display: inline-blcok;
-    height: 9vh;
-    line-height: 9vh;
+    height: 13vh;
+    line-height: 13vh;
     text-align: center;
     background-color: $headerC;
 
     color: $backgroundC
 }
 
-.menuBar {
-    display: inline;
-    // 참조: https://aboooks.tistory.com/85
-}
-
 h3 {
     margin: 0;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.big_textbox {
+    width: 740px;
+    height: 150px;
 }
 
 .textarea_Title {
@@ -117,9 +165,6 @@ input[type="number"] {
     vertical-align:middle;
 }
 
-.tab { 
-    white-space: pre; 
-}
 
 .h1Title {
     margin: 0;
@@ -138,20 +183,4 @@ button {
     float: right;
 }
 // 버튼 css 디자인: https://webdir.tistory.com/421
-
-
-/*
-button:focus,
-input:focus,
-button:active {
-    outline: none;
-    background: $headerC;
-}
-
-input {
-    border:none;
-    border:1px solid rgba(0, 0, 0, 0.3);
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-*/
+// 버튼 정렬 방식: http://img.echosting.cafe24.com/guide/suio/description/button_align.html
