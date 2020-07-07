@@ -16,7 +16,7 @@
                 <div class = "menu">
                     <li class = "menuHeader">FUNCTIONS</li>
                     <li class = "menuOnPage"><a onclick="location.href='/youtube-sourcecode-editor'" traget="_self">YOUTUBE CODE EDITOR</a></li>
-                    <li class = "menuList"><!--<a onclick="location.href='image_size_converter'" traget="_self">-->IMAGE HTML RESIZER<!--</a>--></li>
+                    <li class = "menuList"><a onclick="location.href='image-html-resizer'" traget="_self">IMAGE HTML RESIZER</a></li>
                     <li class = "menuList"></li>
                     <li class = "menuList"></li>
                     <li class = "menuList"></li>
@@ -41,18 +41,14 @@
             <div>
                 <div class = "inside">
                         <h4>
-                        <input type="checkbox" id="youtube_sizeChange" onclick="youtube_openText()">
-                        WIDTH: <input type="number" id="youtube_width" class ="small_box" min="1" step="1" maxlength="10" oninput="youtube_numberLength()" disabled>
-                        HEIGHT: <input type="number" id="youtube_height" class ="small_box" min="1" step="1" maxlength="10" oninput="youtube_numberLength()" disabled>
+                        <input type="checkbox" onclick="youtube_openText()">
+                        WIDTH: <input type="number" id="youtube_width" class="small_box" min="1" step="1" maxlength="10" oninput="youtube_numberLength()" disabled>
+                        HEIGHT: <input type="number" id="youtube_height" class="small_box" min="1" step="1" maxlength="10" oninput="youtube_numberLength()" disabled>
                         <input type="checkbox" id="youtube_autoplay" onclick = "APCaution()"> AUTO PLAY <input type="checkbox" id="youtube_loop"> LOOP
                         </h4>
                         <p>
                         <h3 class = "textarea_Title">ORIGINAL SOURCE CODE :</h3>
                         <textarea id="youtube_before" class = "big_textbox" maxlength="30000"></textarea><br>
-                        <!--
-                        <input type="button" id = "youtube_button" value="CONVERT" onclick="sourceConvert()">
-                        <input type="button" id = "youtube_copy" value="COPY" onclick="youtube_copy()">
-                        -->
                         <span class = "button_blue" id = "youtube_button" onclick = "sourceConvert()">CONVERT</span>
                         <span class = "button_white" id = "youtube_copy" onclick="youtube_copy()">COPY</span>
                     </p>
