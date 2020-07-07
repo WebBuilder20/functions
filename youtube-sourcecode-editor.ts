@@ -1,4 +1,4 @@
-// ts -> js : 터미널에 tsc youtube_sourcecode_editor.ts
+// ts -> js : 터미널에 tsc youtube-sourcecode-editor.ts
 
 let ERROR_notProperSC = "ERROR : Not a proper youtube sourcecode. Please check your code again."
 let ERROR_LengWH = 'ERROR : No width and height inserted!'
@@ -6,7 +6,7 @@ let ERROR_LengW = 'ERRO : No width inserted!'
 let ERROR_LengH = 'ERROR : No height inserted!'
 
 function youtube_copy() {
-    let copyText = document.getElementById("youtube_after") as HTMLInputElement
+    let copyText = document.getElementById("youtube_after") as HTMLInputElement;
     copyText.select();
     document.execCommand("copy");
     copyText.setSelectionRange(0, 0);
@@ -48,7 +48,7 @@ function sourceConvert() {
                 alert(ERROR_LengWH);
             } else if (widthV == "") {
                 alert(ERROR_LengW);
-            } else if (widthV != "") {
+            } else if (heightV == "") {
                 alert(ERROR_LengH);
             }
         } else {
