@@ -55,12 +55,6 @@ html, body {
   bottom: -38px;
 }
 
-.small_box {
-  width: 10vh;
-  height: 2vh;
-  text-align: center;
-}
-
 .inside {
   margin-top: 3vh;
   margin-left: 5vh;
@@ -155,9 +149,9 @@ h3 {
 }
 
 input[type="number"] {
-  margin: 0;
-  padding: 2px 3px;
-  vertical-align: middle;
+  width: 80px;
+  height: 16px;
+  text-align: center;
 }
 
 .h1Title {
