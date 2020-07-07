@@ -1,4 +1,4 @@
-// ts -> js : 터미널에 tsc youtube_sourcecode_editor.ts
+// ts -> js : 터미널에 tsc youtube-sourcecode-editor.ts
 var ERROR_notProperSC = "ERROR : Not a proper youtube sourcecode. Please check your code again.";
 var ERROR_LengWH = 'ERROR : No width and height inserted!';
 var ERROR_LengW = 'ERRO : No width inserted!';
@@ -43,7 +43,7 @@ function sourceConvert() {
             else if (widthV == "") {
                 alert(ERROR_LengW);
             }
-            else if (widthV != "") {
+            else if (heightV == "") {
                 alert(ERROR_LengH);
             }
         }
