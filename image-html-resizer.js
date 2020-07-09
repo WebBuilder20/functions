@@ -1,8 +1,8 @@
 var ERROR_LengWH = 'ERROR : No width and height inserted!';
-var ERROR_LengW = 'ERRO : No width inserted!';
+var ERROR_LengW = 'ERROR : No width inserted!';
 var ERROR_LengH = 'ERROR : No height inserted!';
 var ERROR_INW_LengWH = 'ERROR : No original width and height inserted!';
-var ERROR_INW_LengW = 'ERRO : No original width inserted!';
+var ERROR_INW_LengW = 'ERROR : No original width inserted!';
 var ERROR_INW_LengH = 'ERROR : No original height inserted!';
 // ts -> js : 터미널에 tsc image-html-resizer.ts
 function image_copy() {
