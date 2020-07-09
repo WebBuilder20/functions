@@ -2,12 +2,12 @@
 
 let ERROR_notProperSC = "ERROR : 비정상적인 유튜브 소스 코드. 복사부터 다시해서 붙여넣기."
 let ERROR_LengWH_YT = 'ERROR : 가로와 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
-let ERROR_LengW_YT = 'ERRO : 가로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
+let ERROR_LengW_YT = 'ERROR : 가로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
 let ERROR_LengH_YT = 'ERROR : 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
 
-let ERROR_LengWH_IMG = 'ERROR : 가로와 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
-let ERROR_LengW_IMG = 'ERRO : 가로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
-let ERROR_LengH_IMG = 'ERROR : 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
+let ERROR_LengWH_IMG = 'ERROR : 가로와 세로 길이가 입력되지 않음.'
+let ERROR_LengW_IMG = 'ERROR : 가로 길이가 입력되지 않음.'
+let ERROR_LengH_IMG = 'ERROR : 세로 길이가 입력되지 않음.'
 
 let ERROR_INW_LengWH = 'ERROR : 원본 HTML 이미지 길이가 입력되지 않음. 이미 제대로 변환되고 있었다면 아래 체크박스 풀기.'
 let ERROR_INW_LengW = 'ERRO : 원본 HTML 이미지 가로 길이가 입력되지 않음. 이미 제대로 변환되고 있었다면 아래 체크박스 풀기.'
