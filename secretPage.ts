@@ -1,9 +1,13 @@
 // ts -> js : 터미널에 tsc secretPage.ts
 
 let ERROR_notProperSC = "ERROR : 비정상적인 유튜브 소스 코드. 복사부터 다시해서 붙여넣기."
-let ERROR_LengWH = 'ERROR : 가로와 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
-let ERROR_LengW = 'ERRO : 가로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
-let ERROR_LengH = 'ERROR : 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
+let ERROR_LengWH_YT = 'ERROR : 가로와 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
+let ERROR_LengW_YT = 'ERRO : 가로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
+let ERROR_LengH_YT = 'ERROR : 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
+
+let ERROR_LengWH_IMG = 'ERROR : 가로와 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
+let ERROR_LengW_IMG = 'ERRO : 가로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
+let ERROR_LengH_IMG = 'ERROR : 세로 길이가 입력되지 않음. 1500 * 800으로 두고 싶으면, 앞에 체크박스 풀기.'
 
 let ERROR_INW_LengWH = 'ERROR : 원본 HTML 이미지 길이가 입력되지 않음. 이미 제대로 변환되고 있었다면 아래 체크박스 풀기.'
 let ERROR_INW_LengW = 'ERRO : 원본 HTML 이미지 가로 길이가 입력되지 않음. 이미 제대로 변환되고 있었다면 아래 체크박스 풀기.'
@@ -46,11 +50,11 @@ function sourceConvert() {
         if (widthV == "" || heightV == "") {
             // resize == true && ERROR : numbers not inserted
             if (widthV == "" && heightV == "") {
-                alert(ERROR_LengWH);
+                alert(ERROR_LengWH_YT);
             } else if (widthV == "") {
-                alert(ERROR_LengW);
+                alert(ERROR_LengW_YT);
             } else if (heightV == "") {
-                alert(ERROR_LengH);
+                alert(ERROR_LengH_YT);
             }
         } else {
             // resize = true && numbers inserted && other functions
@@ -152,11 +156,11 @@ function image_convert() {
     let height_wanted = (<HTMLInputElement>document.getElementById("image_height")).value;
 
     if (width_wanted == "" && height_wanted == "") {
-        alert(ERROR_LengWH);
+        alert(ERROR_LengWH_IMG);
     } else if (width_wanted == "") {
-        alert(ERROR_LengW);
+        alert(ERROR_LengW_IMG);
     } else if (height_wanted == "") {
-        alert(ERROR_LengH);
+        alert(ERROR_LengH_IMG);
     } else {
         if ((<HTMLInputElement>document.getElementById("INW_checkBox")).checked == true) {
             let width_TC = (<HTMLInputElement>document.getElementById("INW_width")).value;
