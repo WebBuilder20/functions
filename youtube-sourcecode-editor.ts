@@ -2,7 +2,7 @@
 
 let ERROR_notProperSC = "ERROR : Not a proper youtube sourcecode. Please check your code again."
 let ERROR_LengWH = 'ERROR : No width and height inserted!'
-let ERROR_LengW = 'ERRO : No width inserted!'
+let ERROR_LengW = 'ERROR : No width inserted!'
 let ERROR_LengH = 'ERROR : No height inserted!'
 
 function youtube_copy() {
