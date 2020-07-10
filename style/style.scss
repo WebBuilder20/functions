@@ -54,13 +54,13 @@ html, body {
     min-width: 80px;
     height: 40px;
     padding: 0 30px;
-    color: #fff;
+    color: $backgroundC;
     font-size: 16px;
     font-family: "맑은 고딕", Malgun Gothic, sans-serif;
     font-weight: bold;
     line-height: 40px;
     border: 1px solid transparent;
-    background-color: #1b87d4;
+    background-color: $headerC;
     cursor: pointer;
 }
 
@@ -70,14 +70,14 @@ html, body {
     min-width: 80px;
     height: 40px;
     padding: 0 30px;
-    color: #1b87d4;
+    color: $backgroundC;
     // 폰트 통일하기.
     font-size: 16px;
     font-family: "맑은 고딕", Malgun Gothic, sans-serif;
     font-weight: bold;
     line-height: 40px;
-    border: 1px solid #1b87d4;
-    background-color: #fff;
+    border: 1px solid $headerC;
+    background-color: $panelOnClick;
     cursor: pointer;
 }
 // 버튼
