@@ -1,8 +1,30 @@
 @charset "UTF-8";
+/*
+$Index_BG: rgb(133,  200,  175);
+$Index_BTNL:  rgb(0, 70, 59);
+$Index_BTNBG: rgb(254, 240, 236);
+$Text_darkest: rgb(0, 70, 59);
+$Text_middle: rgb(234,  91, 16);
+$Text_lighter: rgb(0, 70, 59);
+$Text_slash: rgb(254, 240, 236);
+$Text_Click: rgb(234,  91, 16);
+*/
+/*
+// style 3: 딸기
+$Index_BG: rgb(251, 211, 197);
+$Index_BTNL:  rgb(86, 129, 84);
+$Index_BTNBG: rgb(205, 228, 202);
+$Text_darkest: rgb(231, 67, 24);
+$Text_middle: rgb(231, 67, 24);
+$Text_lighter: rgb(86, 129, 84);
+$Text_slash: rgb(86, 129, 84);
+$Text_Click: rgb(231, 67, 24);
+*/
 html, body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: #f5f6fa;
 }
 
@@ -22,8 +44,10 @@ html, body {
 }
 
 .button_blue {
-  min-width: 140px;
-  height: 44px;
+  display: inline-block;
+  text-align: center;
+  min-width: 80px;
+  height: 40px;
   padding: 0 30px;
   color: #fff;
   font-size: 16px;
@@ -36,8 +60,10 @@ html, body {
 }
 
 .button_white {
-  min-width: 140px;
-  height: 44px;
+  display: inline-block;
+  text-align: center;
+  min-width: 80px;
+  height: 40px;
   padding: 0 30px;
   color: #1b87d4;
   font-size: 16px;
@@ -137,6 +163,7 @@ h3 {
 .big_textbox {
   width: 740px;
   height: 150px;
+  resize: none;
 }
 
 .textarea_Title {
@@ -172,5 +199,96 @@ button {
   color: #273c75;
   font-weight: 600;
   float: right;
+}
+
+.IndexBody {
+  background-color: #a7c9c7;
+}
+
+.IndexEmptyBody {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 8vh;
+}
+
+.IndexTitle {
+  margin: 0;
+  width: 100%;
+  height: 8vh;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.IndexTitle_h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5vw;
+  color: #3d423e;
+}
+
+.IndexEmptyBody2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 13vh;
+  background-color: #a7c9c7;
+}
+
+.IndexMenuBar {
+  background-color: #a7c9c7;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.IndexMenu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 0.5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fbf5e6;
+  width: 62vh;
+  height: 50vh;
+  color: #3d423e;
+  border: 12px solid #3d423e;
+  cursor: pointer;
+}
+
+.IndexSlash {
+  display: Inline;
+  margin: 0;
+  padding: 0;
+  font-size: 14vw;
+  font-weight: bolder;
+  color: #fbf5e6;
+  vertical-align: -60%;
+}
+
+.IndexMenuTextTitle {
+  text-align: center;
+  font-weight: bolder;
+  color: #3d423e;
+}
+
+.IndexMenuTextAlign {
+  padding-top: 1vh;
+  padding-right: 2.5vh;
+  padding-left: 2.5vh;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Index_Click {
+  text-align: center;
+  vertical-align: bottom;
+  color: #3d423e;
 }
 /*# sourceMappingURL=style.css.map */
