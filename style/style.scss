@@ -1,35 +1,16 @@
+
+/*
 $backgroundC: rgb(245, 246, 250);
 $panelC: rgb(127, 143, 166);
 $panelOnClick: #516480;
 $headerC: #273c75;
-
-
-// style 4: 수박
-/*
-$Index_BG: rgb(133,  200,  175);
-$Index_BTNL:  rgb(0, 70, 59);
-$Index_BTNBG: rgb(254, 240, 236);
-$Text_darkest: rgb(0, 70, 59);
-$Text_middle: rgb(234,  91, 16);
-$Text_lighter: rgb(0, 70, 59);
-$Text_slash: rgb(254, 240, 236);
-$Text_Click: rgb(234,  91, 16);
 */
 
-/*
-// style 3: 딸기
-$Index_BG: rgb(251, 211, 197);
-$Index_BTNL:  rgb(86, 129, 84);
-$Index_BTNBG: rgb(205, 228, 202);
-$Text_darkest: rgb(231, 67, 24);
-$Text_middle: rgb(231, 67, 24);
-$Text_lighter: rgb(86, 129, 84);
-$Text_slash: rgb(86, 129, 84);
-$Text_Click: rgb(231, 67, 24);
-*/
+$backgroundC: rgb(251,245,230);
+$panelC: rgb(167, 201, 199);
+$panelOnClick: #516480;
+$headerC: rgb(61, 66, 62);
 
-
-// style 2
 $Index_BG: rgb(167, 201, 199);
 $Index_BTNL:  rgb(61, 66, 62);
 $Index_BTNBG: rgb(251,245,230);
@@ -38,9 +19,6 @@ $Text_middle: rgb(61, 66, 62);
 $Text_lighter: rgb(61, 66, 62);
 $Text_slash: rgb(251,245,230);
 $Text_Click: rgb(61, 66, 62);
-
-
-
 
 
 // color source = https://flatuicolors.com/palette/es
@@ -189,6 +167,15 @@ h3 {
     height: 150px;
     resize: none;
 }
+
+.big_textbox_result {
+    width: 740px;
+    height: 150px;
+    resize: none;
+    background-color:dimgrey;
+    color: aquamarine;
+}
+
 
 .textarea_Title {
     margin: 0;
