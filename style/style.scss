@@ -1,14 +1,55 @@
 $backgroundC: rgb(245, 246, 250);
 $panelC: rgb(127, 143, 166);
-$panelOnClick: rgb(81, 100, 128);
+$panelOnClick: #516480;
 $headerC: #273c75;
+
+
+// style 4: 수박
+/*
+$Index_BG: rgb(133,  200,  175);
+$Index_BTNL:  rgb(0, 70, 59);
+$Index_BTNBG: rgb(254, 240, 236);
+$Text_darkest: rgb(0, 70, 59);
+$Text_middle: rgb(234,  91, 16);
+$Text_lighter: rgb(0, 70, 59);
+$Text_slash: rgb(254, 240, 236);
+$Text_Click: rgb(234,  91, 16);
+*/
+
+/*
+// style 3: 딸기
+$Index_BG: rgb(251, 211, 197);
+$Index_BTNL:  rgb(86, 129, 84);
+$Index_BTNBG: rgb(205, 228, 202);
+$Text_darkest: rgb(231, 67, 24);
+$Text_middle: rgb(231, 67, 24);
+$Text_lighter: rgb(86, 129, 84);
+$Text_slash: rgb(86, 129, 84);
+$Text_Click: rgb(231, 67, 24);
+*/
+
+
+// style 2
+$Index_BG: rgb(167, 201, 199);
+$Index_BTNL:  rgb(61, 66, 62);
+$Index_BTNBG: rgb(251,245,230);
+$Text_darkest: rgb(61, 66, 62);
+$Text_middle: rgb(61, 66, 62);
+$Text_lighter: rgb(61, 66, 62);
+$Text_slash: rgb(251,245,230);
+$Text_Click: rgb(61, 66, 62);
+
+
+
+
 
 // color source = https://flatuicolors.com/palette/es
 
 html, body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: $backgroundC;
 }
 
@@ -30,8 +71,10 @@ html, body {
 }
 
 .button_blue {
-    min-width: 140px;
-    height: 44px;
+    display: inline-block;
+    text-align: center;
+    min-width: 80px;
+    height: 40px;
     padding: 0 30px;
     color: #fff;
     font-size: 16px;
@@ -44,8 +87,10 @@ html, body {
 }
 
 .button_white {
-    min-width: 140px;
-    height: 44px;
+    display: inline-block;
+    text-align: center;
+    min-width: 80px;
+    height: 40px;
     padding: 0 30px;
     color: #1b87d4;
     // 폰트 통일하기.
@@ -142,6 +187,7 @@ h3 {
 .big_textbox {
     width: 740px;
     height: 150px;
+    resize: none;
 }
 
 .textarea_Title {
@@ -181,3 +227,90 @@ button {
 }
 // 버튼 css 디자인: https://webdir.tistory.com/421
 // 버튼 정렬 방식: http://img.echosting.cafe24.com/guide/suio/description/button_align.html
+
+// SAMPLE INDEX PAGE
+
+.IndexBody {
+    background-color: $Index_BG;
+}
+
+.IndexEmptyBody {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 8vh;
+}
+
+.IndexTitle {
+    margin: 0;
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.IndexTitle_h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5vw;
+    color: $Text_darkest;
+}
+
+.IndexEmptyBody2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 13vh;
+    background-color: $Index_BG;
+}
+
+.IndexMenuBar {
+    background-color: $Index_BG;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.IndexMenu {
+    display: inline-flex;
+    border-radius: 0.5em;
+    justify-content: center;
+    background-color: $Index_BTNBG;
+    width: 62vh;
+    height: 50vh;
+    color: $Text_lighter;
+    border: 12px solid $Index_BTNL;
+    cursor: pointer;
+}
+
+.IndexSlash {
+    display: Inline;
+    margin: 0;
+    padding: 0;
+    font-size: 14vw;
+    font-weight: bolder;
+    color: $Text_slash;
+    vertical-align: -60%;
+}
+
+.IndexMenuTextTitle {
+    text-align: center;
+    font-weight: bolder;
+    color: $Text_middle;
+}
+
+.IndexMenuTextAlign {
+    padding-top: 1vh;
+    padding-right: 2.5vh;
+    padding-left: 2.5vh;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Index_Click {
+    text-align: center;
+    vertical-align: bottom;
+    color: $Text_Click;
+}
