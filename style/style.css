@@ -155,8 +155,9 @@ h3 {
   width: 740px;
   height: 150px;
   resize: none;
-  background-color: dimgrey;
-  color: aquamarine;
+  background-color: #a7c9c7;
+  color: #3d423e;
+  outline-color: #516480;
 }
 
 .textarea_Title {
