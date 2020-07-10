@@ -172,8 +172,9 @@ h3 {
     width: 740px;
     height: 150px;
     resize: none;
-    background-color:dimgrey;
-    color: aquamarine;
+    background-color:$panelC;
+    color: $headerC;
+    outline-color: $panelOnClick;
 }
 
 
