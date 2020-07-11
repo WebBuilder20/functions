@@ -33,8 +33,8 @@
                 </div>
                 <li class = "menuHeader">LANGUAGE</li>
                 <div class = "lang">
-                    <div style="padding-left: 1.5vh"><input type="button" class="langButton" value="ENGLISH" style="height:4vh; width: 11vh;" onclick=""></div>
-                    <div style="padding-right: 1.5vh"><input type="button" class="langButton" value="KOREAN" style="height:4vh; width: 11vh;" onclick=""></div>
+                    <div style="padding-left: 1.5vh"><input type="button" class="langButton" value="ENGLISH" style="height:4vh; width: 11vh;" onclick="location.href='/image-html-resizer'" traget="_self"></div>
+                    <div style="padding-right: 1.5vh"><input type="button" class="langButton" value="한국어" style="height:4vh; width: 11vh;" onclick="location.href='/ko/image-html-resizer'" traget="_self"></div>
                 </div>
             </div>
             <div>
@@ -55,7 +55,7 @@
                         <h4 class = "error" style="margin-bottom: 0px; padding-bottom: 3px;"><input type="checkbox" id="INW_checkBox" onclick="image_openText()"> CHECK ONLY, IF IT'S NOT WORKING!<br></h4>
                         original width from HTML: <input type="number" id="INW_width" class ="small_box" min="1" step="1" maxlength="10" oninput="image_numberLength()" disabled>
                         original height from HTML: <input type="number" id="INW_height" class ="small_box" min="1" step="1" maxlength="10" oninput="image_numberLength()" disabled>
-                        <script src="image-html-resizer.js"></script>
+                        <script src="..\script\image-html-resizer.js"></script>
                     </p>
                 </div>
             </div>
