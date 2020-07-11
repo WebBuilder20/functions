@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script data-ad-client="ca-pub-8762529980430228" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <title>FUNCTIONS :: 유튜브 소스코드 변환기</title>
+        <link rel = "stylesheet" href = "..\style\style.css">
+    </head>
+    <body>
+        <div class = "upperSite">
+            <h1 class = "h1Title"><a onclick = 'href="/index"; traget="_self"'>FUNCTIONS :: 유튜브 소스코드 변환기</a></h1>
+        </div>
+        <div class = "container">
+            <div class = "menuAndLang">
+                <h4 style="text-align: center; margin-bottom: 0; margin-top: 0.5vh; color:purple"></h4>
+                <div class = "menu">
+                    <li class = "menuHeader">FUNCTIONS</li>
+                    <li class = "menuOnPage"><a onclick="location.href='/youtube-sourcecode-editor'" traget="_self">유튜브 소스코드 변환기</a></li>
+                    <li class = "menuList"><a onclick="location.href='/image-html-resizer'" traget="_self">이미지 사이즈 편집기</a></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                    <li class = "menuList"></li>
+                </div>
+                <li class = "menuHeader">LANGUAGE</li>
+                <div class = "lang">
+                    <div style="padding-left: 1.5vh"><input type="button" class="langButton" value="ENGLISH" style="height:4vh; width: 11vh;" onclick="location.href='../youtube-sourcecode-editor'" traget="_self"></div>
+                    <div style="padding-right: 1.5vh"><input type="button" class="langButton" value="한국어" style="height:4vh; width: 11vh;" onclick="location.href='/youtube-sourcecode-editor'" traget="_self"></div>
+                </div>
+            </div>
+            <div>
+                <div class = "inside">
+                        <h4>
+                        <input type="checkbox" onclick="youtube_openText()">
+                        가로 (WIDTH): <input type="number" id="youtube_width" class="small_box" min="1" step="1" maxlength="10" oninput="youtube_numberLength()" disabled>
+                        세로 (HEIGHT): <input type="number" id="youtube_height" class="small_box" min="1" step="1" maxlength="10" oninput="youtube_numberLength()" disabled>
+                        <input type="checkbox" id="youtube_autoplay" onclick = "APCaution()"> 자동 재생 <input type="checkbox" id="youtube_loop"> 반복 재생
+                        </h4>
+                        <p>
+                        <h3 class = "textarea_Title">원본 유튜브 소스코드 :</h3>
+                        <textarea id="youtube_before" class = "big_textbox" maxlength="30000"></textarea><br>
+                        <span class = "button_blue" id = "youtube_button" onclick = "sourceConvert()">변환</span>
+                        <span class = "button_white" id = "youtube_copy" onclick="youtube_copy()">복사</span>
+                    </p>
+                    <p>
+                        <h3 class = "textarea_Title">변환된 유튜브 소스코드 :</h3>
+                        <textarea id="youtube_after" class = "big_textbox_result"></textarea>
+                        <h4 class ="error" id = "youtube_error">※ 자동 재생은 개별 브라우저 방침에 따라 작동하지 않을 수 있습니다.</h4>
+                        <script src="..\ko\ko-script\ko-youtube-sourcecode-editor.js"></script>
+                    </p>
+                </div>
+            </div>
+            </div>
+    </body>
+</html>
